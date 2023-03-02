@@ -151,12 +151,14 @@ body {
     }
 }
 
-.results{
+.results {
     display: flex;
-   
+
     padding: 20px;
 }
-.c1{
+
+.c1 {
     display: flex;
     justify-content: center;
+    font-size: small;
 }

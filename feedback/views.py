@@ -17,7 +17,8 @@ def feedbackk(request):
     field3 = request.POST['field3']
     field4 = request.POST['field4']
     field5 = request.POST['field5']
-    print(field1, field2, field3, field4, field5)
+    field6 = request.POST['field6']
+    print(field1, field2, field3, field4, field5, field6)
 
     def analyse(text):
         result = nlp(text)
@@ -45,6 +46,8 @@ def feedbackk(request):
     sentiment3 = analyse(field3)
     sentiment4 = analyse(field4)
     sentiment5 = analyse(field5)
+    sentiment6 = analyse(field6)
+
     context = {'sentiment1': sentiment1, 'sentiment2': sentiment2,
-               'sentiment3': sentiment3, 'sentiment4': sentiment4, 'sentiment5': sentiment5}
+               'sentiment3': sentiment3, 'sentiment4': sentiment4, 'sentiment5': sentiment5, 'sentiment6': sentiment6}
     return render(request, 'feedback.html', context)
