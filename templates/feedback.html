@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sentiment Analysis</title>
+		<link rel="stylesheet" href="{% static 'css\styles.css' %}" />
+	</head>
+	<body>
+	
+			<h1 class="c1">Sentiment Analysis Results</h1>
+			<div class="results">
+				<label
+					>Sentiment Analysis of field <b>Education system</b> is
+					{{sentiment1}}.</label
+				>
+
+				<br /><br />
+				<div class="user-box">
+					<label
+						>Sentiment Analysis of field <b>Crime management </b>is
+						{{sentiment2}}.</label
+					>
+				</div>
+				<br /><br />
+				<div class="user-box">
+					<label
+						>Sentiment Analysis of field <b>Transport system </b> is
+						{{sentiment3}}.</label
+					>
+				</div>
+				<br /><br />
+				<div class="user-box">
+					<label
+						>Sentiment Analysis of field <b>Hygiene</b> is
+						{{sentiment4}}.</label
+					>
+				</div>
+				<br /><br />
+				<div class="user-box">
+					<label
+						>Sentiment Analysis of field <b>Health </b> is
+						{{sentiment5}}.</label
+					>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

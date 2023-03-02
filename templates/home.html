@@ -1,0 +1,62 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home</title>
+		<link rel="stylesheet" href="{% static 'css\styles.css' %}" />
+	</head>
+	<body>
+		<!-- <form method="POST" action="/feedback/">
+        {% csrf_token %}
+        <input type ="text" name ="field1"> <br> <br>
+        <input type ="text" name ="field2"> <br> <br>
+        <input type ="text" name ="field3"> <br> <br>
+        <input type ="text" name ="field4"> <br> <br>
+        <input type ="text" name ="field5"> <br> <br>
+        <input type = 'submit'>Analyse</input>
+      </form> -->
+		<div class="container">
+			<div class="left">
+				<div class="header">
+					<h2 class="animation a1">Data feed</h2>
+					<br />
+				</div>
+				<div class="form">
+					<form method="POST" action="/feedback/">
+						{% csrf_token %}
+						<label class="animation a3">Education system</label>
+						<input type="text" name="field1" class="form-field animation a3" />
+						<br />
+						<br />
+						<label class="animation a4">Crime management</label>
+						<input type="text" name="field2" class="form-field animation a4" />
+						<br />
+						<br />
+						<label class="animation a5">Transport system</label>
+						<input type="text" name="field3" class="form-field animation a5" />
+						<br />
+						<br />
+						<label class="animation a6">Hygiene </label>
+						<br />
+						<input type="text" name="field4" class="form-field animation a6" />
+						<br />
+						<br />
+						<label class="animation a7">Health </label>
+						<br />
+						<input type="text" name="field5" class="form-field animation a7" />
+						<br />
+						<br />
+						<button class="animation a7" id="button1" type="submit">
+							Submit
+						</button>
+					</form>
+				</div>
+			</div>
+			<div class="right"></div>
+		</div>
+	</body>
+</html>
