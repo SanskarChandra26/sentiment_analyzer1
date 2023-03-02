@@ -7,5 +7,11 @@ Sentiment analyzers work by examining the language used in a given text and iden
 
 Sentiment analyzers can be used for a variety of purposes, including market research, customer feedback analysis, social media monitoring, and brand reputation management. They can help organizations quickly and accurately identify the sentiment of large volumes of text data, allowing them to make data-driven decisions and respond more effectively to customer needs and concerns.
 
-##Photos
+## Photos
+
 ![alt text](https://github.com/SanskarChandra26/sentiment_analyzer1/blob/main/df3.png)
+
+![alt text](https://github.com/SanskarChandra26/sentiment_analyzer1/blob/main/df1.png)
+
+![alt text](https://github.com/SanskarChandra26/sentiment_analyzer1/blob/main/df2.png)
+
