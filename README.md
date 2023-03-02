@@ -1,5 +1,4 @@
-# sentiment_analyzer
-Sentiment Analyzer
+# Sentiment Analyzer
 
 A sentiment analyzer is a type of natural language processing (NLP) software that is designed to analyze and categorize the emotional tone of a piece of text. It uses machine learning algorithms to identify and classify the sentiment of the text as either positive, negative, or neutral.
 
